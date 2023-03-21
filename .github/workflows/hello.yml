@@ -13,3 +13,5 @@ jobs:
         run: date
       - name: Directory content
         run: ls -l
+      - name: Testing skip
+        run: echo "Testing skip"
