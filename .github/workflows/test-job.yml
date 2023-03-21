@@ -24,4 +24,4 @@ jobs:
         env:
           CONTAINS_SKIP: ${{ contains(join(github.event.commits.*.message), '#skip') }}
         if: ${{ env.CONTAINS_SKIP }}
-        run: echo "commit message contains #skip"
+        run: echo "commit message contains ""#skip"
